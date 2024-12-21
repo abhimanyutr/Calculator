@@ -1,0 +1,50 @@
+<html>
+    <head><title>calculator</title>
+    </head>
+    <link href="calculator.css" rel="stylesheet">
+    <body>
+        <script src="calculator.js"></script>
+    <div class="root">
+        <div >
+            <input id="top" type="text">
+        </div>
+        <div class="colm">
+           <div class="row">
+            <button class="btn" onclick="key(7)">7</button>
+            <button class="btn" onclick="key(8)">8</button>
+            <button class="btn" onclick="key(9)">9</button>
+            <button id="clear" class="btn" onclick="clr()">C</button>
+           </div>
+           <div class="row">
+            <button class="btn" onclick="key(7)">7</button>
+            <button class="btn" onclick="key(8)">8</button>
+            <button class="btn" onclick="key(9)">9</button>
+            <button id="opr" class="btn" onclick="key('/')">/</button>
+           </div>
+           <div class="row">
+            <button class="btn" onclick="key(4)">4</button>
+            <button class="btn" onclick="key(5)">5</button>
+            <button class="btn" onclick="key(6)">6</button>
+            <button id="opr" class="btn" onclick="key('*')">x</button>
+           </div>
+           <div class="row">
+            <button class="btn" onclick="key(1)">1</button>
+            <button class="btn" onclick="key(2)">2</button>
+            <button class="btn" onclick="key(3)">3</button>
+            <button id="opr" class="btn" onclick="key('+')">+</button>
+           </div>
+           <div class="row">
+            <button class="btn" onclick="key(0)">0</button>
+            <button class="btn" onclick="key('.')">.</button>
+            <button id="opr"class="btn" onclick="key('-')">-</button>
+            <button id="eq" class="btn" onclick="operation()">=</button>
+           </div>
+        </div>
+
+
+
+
+    </div>
+
+    </body>
+</html>
