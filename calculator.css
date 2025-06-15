@@ -9,6 +9,8 @@ body{
   margin-left: 542px;
 }
 #top{
+
+
     width: 82%;
     margin-top: 22px;
     margin-left: 36px;
@@ -16,6 +18,7 @@ body{
     pointer-events: none;
 }
 .colm{
+
     padding-top: 42px;
 
 }
